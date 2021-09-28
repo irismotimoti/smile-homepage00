@@ -37,4 +37,43 @@ body {
     position: relative;
     text-decoration: underline;
   }
-  
+    
+@media only screen and (max-device-width: 480px) {    
+    body {
+        font-weight: bold;
+        font-size: 10px;
+        color: blue;
+    }
+    .top-text {
+        background-color: #d3d3d3;
+    }
+    .body-text {
+        font-size: 6px;
+        color:black;
+        background-color:#daf0e3;
+    
+    }
+    .phone {
+        font-size: 5px;
+        color: red;
+    }
+    .btn {
+        display: block;
+        text-decoration: none;
+        cursor: pointer;
+        color: blue;
+        font-size: 4.8px;
+        line-height: 1.54167;
+        text-align: center;
+        padding: 11.5px;
+        width: calc(100% - 40px);
+        max-width: 480px;
+        margin: 10px auto;
+        position: relative;
+        text-decoration: underline;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+        }
+}
