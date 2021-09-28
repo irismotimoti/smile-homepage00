@@ -40,6 +40,10 @@ body {
 .syasinn {
     text-aligin:center;
 }
+.qr {
+    width: 150px;
+    height: 150px;
+}
     
 @media only screen and (max-device-width: 480px) {    
     body {
@@ -82,4 +86,8 @@ body {
         max-width: 100%;
         height: auto;
         }
+    .qr {
+        width: 30px;
+        height: 30px;
+    }
 }
