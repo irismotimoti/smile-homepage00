@@ -37,6 +37,9 @@ body {
     position: relative;
     text-decoration: underline;
   }
+.syasinn {
+    text-aligin:center;
+}
     
 @media only screen and (max-device-width: 480px) {    
     body {
@@ -72,6 +75,9 @@ body {
         position: relative;
         text-decoration: underline;
       }
+    .syasinn {
+        text-aligin:center;
+    }
       img {
         max-width: 100%;
         height: auto;
